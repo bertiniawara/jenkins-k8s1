@@ -8,10 +8,10 @@ spec:
   source:
     repoURL: https://github.com/bertiniawara/jenkins-k8s1.git
     targetRevision: HEAD
-    path: deployment.yaml
+    path: deploy/
   destination:
     server: https://kubernetes.default.svc
-    namespace: my-argoapp
+    namespace: my-app
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
