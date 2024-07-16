@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/bertiniawara/updatemanifest.git
+    repoURL: https://github.com/bertiniawara/jenkins-k8s1.git
     targetRevision: HEAD
-    path: updatemanifest
+    path: deployment.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: my-argoapp
