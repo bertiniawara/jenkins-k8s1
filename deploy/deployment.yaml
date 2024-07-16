@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: maven-demo
-        image: betiniawara842/project
+        image: betiniawara842/project:1.0
         ports:
         - containerPort: 8080
